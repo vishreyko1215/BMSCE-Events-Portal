@@ -1,0 +1,13 @@
+Running programs:
+
+1. Export whatsapp chat history in to a text file (WhatsAppChatRTR2024-2025.txt) which will be used as input to python pgm. Save the chat text file as 'FLEETS.txt' or 'ROTARACT.txt'
+
+2. Now open cmd prompt and navigate to the folder where the programs are saved
+
+3. Now run the bat file - run_parser.bat. This batch file can also be scheduled to run periodically as needed, at regular intervals using windows task scheduler.
+
+4. This bat file will run the python pgm - parse_events_single_json.py for both input text files to generate respective json files that will be saved in same directory.
+
+5. Now right click the index.html file in vscode and select first option - "Open with Live Server"; this will open the html page in a browser.
+
+6. Now you should be able to select any of the clubs and be able to view the events of that club.
